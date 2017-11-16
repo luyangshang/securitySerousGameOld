@@ -1,0 +1,16 @@
+"acts": 
+[
+	"connection hijacking", "DDOS", "arp poisoning"
+]
+"buffs":
+[
+	"channel sniffed", "MITM"
+]
+"initial acts":
+[
+	"connection hijacking", "arp poisoning"
+]
+"initial buffs":
+[
+	"MITM"
+]

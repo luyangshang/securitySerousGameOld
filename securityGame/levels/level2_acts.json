@@ -1,0 +1,13 @@
+"acts": 
+[
+	"connection hijacking", "DDOS", "arp poisoning"
+]
+"buffs":
+[
+	{	"name":	"channel sniffed",
+		"text":	"the channel is sniffed. All unencripted data will be revealed to the rival"
+	}
+	{	"name":	"MITM",
+		"text": "the rival has performed MITM(Man In The Middle) attack or, the rival sits physically between you and your target host. Unencripted data could be revealed to the rival; Unauthenticated data could be modified by the rival. Reply attack is also possible."
+	}
+]

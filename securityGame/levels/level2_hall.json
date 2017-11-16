@@ -1,0 +1,48 @@
+"NPCs":
+[
+	{	"name": "npc1",
+		"2D": "npc1_2D.jpg",
+		"3D": "npc2_3D.jpg",
+		"state":
+		[
+			1:
+			{
+				"speech": "npc1 stat1 speech"
+			}	
+			2: 
+			{	"prerequesits": 
+				[
+					{"npc": "npc2",
+					"status": 2}
+					{"npc": "npc3",
+					"status": 3}
+				]
+				"speech": "npc1 stat2 speech"
+			}
+			3:
+			{	"prerequesits":
+				[]
+				"speech": "npc1 stat3 speech"
+			}
+		]
+	}
+	{	"name": "npc2",
+		"2D": "npc2_2D.jpg",
+		"3D": "npc2_3D.jpg",
+		"state":
+		[	
+			1: 
+			{	"speech": "npc2 stat1 speech"
+			}
+			2: 
+			{
+				"prerequesits":
+				[
+					"npc": "npc2",
+					"status": 1
+				]
+				"speech": "npc2 stat2 speech"
+			}
+		]
+	}
+]
